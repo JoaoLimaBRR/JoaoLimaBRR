@@ -1,0 +1,14 @@
+#pesquisa
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    background-image: linear-gradient(to bottom right, rgb(236, 12, 180), white);
+}
+
+#formulario
+{
+    padding: 2%;
+    background-image: linear-gradient(to bottom right, blue, white);
+    
+}

@@ -1,0 +1,30 @@
+html
+{
+margin: 0%;
+padding: 0%;
+border: 0%;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    background: red;
+    font-style: italic;
+}
+
+#entrada
+{
+    width: 80%;
+}
+
+#btnIncluir
+{
+    width: 80%;
+    background-color: red;
+}
+
+check
+{
+    text-decoration: line-through;
+}

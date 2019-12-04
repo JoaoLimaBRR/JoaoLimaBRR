@@ -1,0 +1,97 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+       <script src="busca.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Busca de users</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-light bg-light" id="pesquisa">
+            <div class="form-inline">
+                <div class="mr-sm-1" ><strong>Digite o ID do usuario </strong></div>
+                <input class="form-control mr-sm-2" type="number" placeholder="Pesquisar" id = "idUsuario">
+                <button class="btn btn-outline-success my-2 my-sm-0"  onclick="realizarBusca();">Pesquisar</button>
+            </form>
+        </nav>
+
+        <form id="formulario">
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>ID</strong></label>
+                <input type="text" class="form-control" id="id" readonly=“true” placeholder="ID">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>USERNAME</strong></label>
+                <input type="text" class="form-control" id="username" readonly=“true” placeholder="You username">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>EMAIL</strong></label>
+                <input type="text" class="form-control" id="email" readonly=“true” placeholder="You e-mail">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>STREET</strong></label>
+                <input type="text" class="form-control" id="street" readonly=“true” placeholder="You street">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>SUITE</strong></label>
+                <input type="text" class="form-control" id="suite" readonly=“true” placeholder="You Suite">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>CITY</strong></label>
+                <input type="text" class="form-control" id="city" readonly=“true” placeholder="You city">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>ZIPCOD</strong></label>
+                <input type="text" class="form-control" id="zipcod" readonly=“true” placeholder="You zipcod">
+            </div>
+            
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>PHONE</strong></label>
+                <input type="text" class="form-control" id="phone" readonly=“true” placeholder="You phone">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>WEBSITE</strong></label>
+                <input type="text" class="form-control" id="website" readonly=“true” placeholder="You website">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput"><strong>COMPANY</strong></label>
+                <input type="text" class="form-control" id="company" readonly=“true” placeholder="You company">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>CATCHPHRASE</strong></label>
+                <input type="text" class="form-control" id="catchPhrase" readonly=“true” placeholder="catchPhrase">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><strong>BUSSINES</strong></label>
+                <input type="text" class="form-control" id="bussines" readonly=“true”'0  placeholder="bussines">
+            </div>
+
+
+        </form>
+
+        <div class="container-fluid" id="result">
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
